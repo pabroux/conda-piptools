@@ -12,5 +12,5 @@ Follow the steps:
 1. Specify your Python and CUDA (optional) versions in `environment.yml`;
 2. Use `./setEnvName.sh "envName"` to set a name for the new conda environment;
 3. Specify your requirements for the production and the development respectively in `requirements/prod.in` and `requirements/dev.in`;
-4. Use `make` to create and/or update all your packages. 
+4. Use `make` to create and/or update all your packages (use `make force` if you want to force it). 
 

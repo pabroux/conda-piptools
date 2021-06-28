@@ -8,9 +8,12 @@ SHELL=/bin/bash
 CONDA_ACTIVATE=source $$(conda info --base)/etc/profile.d/conda.sh ; conda activate; conda activate
 
 # Same name as in environment.yml
-CONDA_ENV=project-name
+CONDA_ENV=SinNER
 
 all: conda-env-update pip-compile pip-sync
+
+# Force mode
+force: conda-env-update pip-compile-force pip-sync
 
 # Create or update conda env
 conda-env-update:
@@ -19,6 +22,10 @@ conda-env-update:
 # Compile exact pip packages
 pip-compile:
 	$(CONDA_ACTIVATE) $(CONDA_ENV) && pip-compile -v requirements/prod.in && pip-compile -v requirements/dev.in
+
+# Compile exact pip packages (force mode)
+pip-compile-force:
+	$(CONDA_ACTIVATE) $(CONDA_ENV) && pip-compile --allow-unsafe -v requirements/prod.in && pip-compile --allow-unsafe -v requirements/dev.in
 
 # Install pip packages
 pip-sync:

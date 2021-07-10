@@ -2,7 +2,7 @@
 By Sulfyderz.
 
 ## About:
-CondaPipManager is a way to better handle your Python packages and keep them up-to-date. It handles their dependencies and their compatibilities thanks to `conda` and `pip-tools`. More precisely, it requires you to only specify minimal constraints (`torch >= 1.7` and `numpy`). CondaPipManager will then figure out exact and mutually compatible versions (`torch==1.7.1` and `numpy==1.19.5`).
+CondaPipManager is a way to better handle your Python packages and keep them up-to-date. It handles their dependencies and their compatibilities thanks to `conda` and `pip-tools`. More precisely, it requires you to only specify minimal constraints (for instance: `torch >= 1.7` and `numpy`). CondaPipManager will then figure out exact and mutually compatible versions (for instance: `torch==1.7.1` and `numpy==1.19.5`).
 
 ## Prerequisite:
 You need to have `conda` installed.

@@ -19,3 +19,6 @@ Follow the steps:
 ```
 make
 ```
+
+## Multiple conda?
+If you have multiple `conda` installed from different providers (e.g. _Miniforge_, _Miniconda_ or _Anaconda_) or with different architectures (e.g. _x86_ and _arm64_), use CondaPipManager inside the `base` environment of the targeted `conda`.

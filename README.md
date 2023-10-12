@@ -1,4 +1,4 @@
-# <img width="40" height="40" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/python__6_.png" alt="Banner"> CondaPipManager
+# <img width="40" height="40" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/CondaPipManager.png" alt="Banner"> CondaPipManager
 By Sulfyderz.
 
 ## About

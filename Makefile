@@ -8,7 +8,7 @@ SHELL=/bin/bash
 CONDA_ACTIVATE=source $$(conda info --base)/etc/profile.d/conda.sh ; conda activate; conda activate
 
 # Same name as in environment.yml
-CONDA_ENV=SinNER
+CONDA_ENV=project-name
 
 all: conda-env-update pip-compile pip-sync
 

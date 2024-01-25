@@ -7,7 +7,7 @@ CondaPipManager is a way to better handle your Python packages and keep them up-
 ## Requirements
 You need to have `conda` installed.
 
-## How to use it?
+## Usage
 Follow the steps:
 1. Specify your Python and CUDA (optional) versions in `environment.yml`;
 2. Use the `setEnvName.sh` script to set the name of the new or existing conda environment:

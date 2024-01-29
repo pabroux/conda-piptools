@@ -15,16 +15,20 @@ all: conda-env-update pip-compile pip-sync
 # Force mode
 force: conda-env-update pip-compile-force pip-sync
 
+# Clean generated requirements
+clean-requirements:
+	-rm requirements/prod.txt && rm requirements/dev.txt
+
 # Create or update conda env
 conda-env-update:
 	conda env update --prune
 
 # Compile exact pip packages
-pip-compile:
+pip-compile: clean-requirements
 	$(CONDA_ACTIVATE) $(CONDA_ENV) && pip-compile -v requirements/prod.in && pip-compile -v requirements/dev.in
 
 # Compile exact pip packages (force mode)
-pip-compile-force:
+pip-compile-force: clean-requirements
 	$(CONDA_ACTIVATE) $(CONDA_ENV) && pip-compile --allow-unsafe -v requirements/prod.in && pip-compile --allow-unsafe -v requirements/dev.in
 
 # Install pip packages

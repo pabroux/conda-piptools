@@ -1,14 +1,12 @@
-# Oneshell means all lines in a recipe run in the same shell
+# Configuration
+## Oneshell means all lines in a recipe run in the same shell
 .ONESHELL:
-
-# Need to specify bash in order for conda activate to work
-SHELL=/bin/bash
-
-# Note that the extra activate is needed to ensure that the activate floats env to the front of PATH
+## Note that the extra activate is needed to ensure that the activate floats env to the front of PATH
 CONDA_ACTIVATE=source $$(conda info --base)/etc/profile.d/conda.sh; conda activate; conda activate
-
-# Same name as in environment.yml
+## Same name as in environment.yml
 CONDA_ENV=project-name
+## Need to specify bash in order for conda activate to work
+SHELL=/bin/bash
 
 all: conda-env-update pip-compile pip-sync
 

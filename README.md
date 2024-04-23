@@ -1,4 +1,4 @@
-# <img width="40" height="40" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/CondaPipManager.png" alt="Banner"> PXC
+# <img width="40" height="40" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/module.png?width=96" alt="Banner"> PXC
 By Sulfyderz.
 
 ## About

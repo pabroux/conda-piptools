@@ -1,4 +1,4 @@
-# <img width="20" height="40" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/module.png?width=96" alt="Banner"> PXC
+# <img width="20" height="20" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/module.png?width=96" alt="Banner"> PXC
 
 ## About
 PXC is a way to better handle your Python packages and keep them up-to-date. It handles their dependencies and their compatibilities thanks to `conda` and `pip-tools`. More precisely, it requires you to only specify minimal constraints (e.g. `torch >= 1.7` and `numpy`) and PXC will then figure out exact and mutually compatible versions (e.g. `torch==1.7.1` and `numpy==1.19.5`).

@@ -24,5 +24,5 @@ Follow these steps:
 ❯ make
 ```
 
-## Multiple conda installed
+## Multiple conda installation
 If you have multiple conda installed from different providers (e.g. _Miniforge_, _Miniconda_ or _Anaconda_) or with different architectures (e.g. _x86_ and _arm64_), use conda-piptools inside the _base_ conda environment of the targeted conda.

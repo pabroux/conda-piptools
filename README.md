@@ -1,4 +1,10 @@
-# <img width="20" height="20" src="https://gitlab.com/uploads/-/system/project/avatar/26713933/module.png?width=96" alt="Banner"> Conda-piptools
+<p align="center">
+  <img width=600 src="https://github.com/user-attachments/assets/a77313b6-1a42-46c1-8230-708af3c50a50">
+</p>
+<p align="center">
+  <b>A mini tool to better handle your Conda environment and Python package</b>
+</p>
+
 
 ## About
 Conda-piptools makes your Conda environment and Python package management easier:
@@ -13,6 +19,7 @@ You need to have [Conda](https://anaconda.org/anaconda/conda) installed.
 
 ## Usage
 Follow these steps:
+
 1. Specify your Python version as well as the versions of other things (e.g. CUDA and CUDNN versions) you want for a conda environment in the `environment.yml` file;
 2. Use the `setEnvName.sh` script to set the name of the new or existing conda environment:
 ```

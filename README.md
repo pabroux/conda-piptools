@@ -16,12 +16,12 @@ Follow these steps:
 1. Specify your Python version as well as the versions of other things (e.g. CUDA and CUDNN versions) you want for a conda environment in the `environment.yml` file;
 2. Use the `setEnvName.sh` script to set the name of the new or existing conda environment:
 ```
-❯ ./setEnvName.sh "yourEnvironmentName"
+./setEnvName.sh "yourEnvironmentName"
 ```
 3. Specify your Python package requirements for the development and the production respectively in `requirements/dev.in` and `requirements/prod.in`;
 4. Use the `make` command to create and/or update all your Python packages (use `make force` if you want to force it):
 ```
-❯ make
+make
 ```
 
 ## Multiple Conda installed

@@ -5,8 +5,8 @@
   <b>A mini tool to better handle your Conda environment and Python package</b>
 </p>
 <p align="center">
-  <a href="https://github.com//Sulfyderz/Conda-piptools/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Sulfyderz/Conda-piptools.svg" alt="License Badge">
+  <a href="https://github.com/pabroux/Conda-piptools/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/pabroux/Conda-piptools.svg" alt="License Badge">
   </a>
 </p>
 

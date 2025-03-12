@@ -5,9 +5,13 @@
   <b>A mini tool to better handle your Conda environment and Python package</b>
 </p>
 <p align="center">
-  <a href="https://github.com/pabroux/Conda-piptools/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/pabroux/Conda-piptools.svg" alt="License Badge">
+  <a href="https://github.com/pabroux/conda-piptools/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/pabroux/conda-piptools.svg" alt="License Badge">
   </a>
+</p>
+<p align="center">
+  <img src="https://github.com/pabroux/conda-piptools/actions/workflows/code-quality-checker.yml/badge.svg" alt="Code Quality Checker Badge">
+  <img src="https://github.com/pabroux/conda-piptools/actions/workflows/secret-scanner.yml/badge.svg" alt="Secret Scanner Badge">
 </p>
 
 

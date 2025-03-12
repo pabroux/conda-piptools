@@ -27,9 +27,9 @@ You need to have [Conda](https://anaconda.org/anaconda/conda) installed.
 Follow these steps:
 
 1. Specify your Python version as well as the versions of other things (e.g. CUDA and CUDNN versions) you want for a conda environment in the `environment.yml` file;
-2. Use the `setEnvName.sh` script to set the name of the new or existing conda environment:
+2. Use the `set_env_name.sh` script to set the name of the new or existing conda environment:
 ```
-./setEnvName.sh "yourEnvironmentName"
+./set-env-name.sh "your-environment-name"
 ```
 3. Specify your Python package requirements for the development and the production respectively in `requirements/dev.in` and `requirements/prod.in`;
 4. Use the `make` command to create and/or update all your Python packages (use `make force` if you want to force it):
@@ -37,5 +37,5 @@ Follow these steps:
 make
 ```
 
-## Multiple Conda installed
+## Multiple Conda installation
 If you have multiple Conda installed, use Conda-piptools inside the _base_ Conda environment of the targeted Conda.

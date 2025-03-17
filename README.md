@@ -25,7 +25,7 @@ Conda-piptools makes your Conda environment and Python package management easier
 > As its name implies, Conda-piptools uses [Conda](https://anaconda.org/anaconda/conda) and [pip-tools](https://github.com/jazzband/pip-tools) in the background.
 
 ## Requirements
-You need to have [Conda](https://anaconda.org/anaconda/conda) installed.
+You need to have [Conda](https://anaconda.org/anaconda/conda) and [pip-tools](https://pip-tools.readthedocs.io/) installed.
 
 ## Usage
 Follow these steps:

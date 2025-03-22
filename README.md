@@ -6,12 +6,22 @@
 </p>
 <p align="center">
   <a href="https://github.com/pabroux/conda-piptools/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/pabroux/conda-piptools.svg" alt="License Badge">
+    <picture>
+      <img src="https://img.shields.io/github/license/pabroux/conda-piptools.svg?label=Licence" alt="License Badge">
+    </picture>
   </a>
 </p>
 <p align="center">
-  <img src="https://github.com/pabroux/conda-piptools/actions/workflows/code-quality-checker.yml/badge.svg" alt="Code Quality Checker Badge">
-  <img src="https://github.com/pabroux/conda-piptools/actions/workflows/secret-scanner.yml/badge.svg" alt="Secret Scanner Badge">
+  <a href="https://github.com/pabroux/conda-piptools/actions/workflows/code-quality-checker.yml">
+    <picture>
+      <img src="https://github.com/pabroux/conda-piptools/actions/workflows/code-quality-checker.yml/badge.svg" alt="Code Quality Checker Badge">
+    </picture>
+  </a>
+  <a href="https://github.com/pabroux/conda-piptools/actions/workflows/secret-scanner.yml">
+    <picture>
+      <img src="https://github.com/pabroux/conda-piptools/actions/workflows/secret-scanner.yml/badge.svg" alt="Secret Scanner Badge">
+    </picture>
+  </a>
 </p>
 
 

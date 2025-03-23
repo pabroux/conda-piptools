@@ -26,6 +26,7 @@
 
 
 ## About
+
 Conda-piptools makes your Conda environment and Python package management easier:
 - It allows you to specify easily the exact Python version as well as other things you want (e.g. CUDA and CUDNN versions) for a Conda environment;
 - It allows you to better handle the dependencies and the compatibilities of your Python packages. More precisely, it requires you to only specify minimal constraints (e.g. `torch >= 1.7` and `numpy`) and Conda-piptools will then figure out exact and mutually compatible versions (e.g. `torch==1.7.1` and `numpy==1.19.5`).
@@ -34,10 +35,14 @@ Conda-piptools makes your Conda environment and Python package management easier
 > [!NOTE]
 > As its name implies, Conda-piptools uses [Conda](https://anaconda.org/anaconda/conda) and [pip-tools](https://github.com/jazzband/pip-tools) in the background.
 
+
 ## Requirements
+
 You need to have [Conda](https://anaconda.org/anaconda/conda) and [pip-tools](https://pip-tools.readthedocs.io/) installed.
 
+
 ## Usage
+
 Follow these steps:
 
 1. Specify your Python version as well as the versions of other things (e.g. CUDA and CUDNN versions) you want for a conda environment in the `environment.yml` file;
@@ -51,5 +56,7 @@ Follow these steps:
 make
 ```
 
+
 ## Multiple Conda installation
+
 If you have multiple Conda installed, use Conda-piptools inside the _base_ Conda environment of the targeted Conda.

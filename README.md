@@ -24,6 +24,10 @@
   </a>
 </p>
 
+> [!WARNING]
+> Conda-piptools is now deprecated and no longer maintained. See [pixi](https://github.com/prefix-dev/pixi/) and [uv](https://github.com/astral-sh/uv) for better solutions.
+
+
 ## About
 
 Conda-piptools makes your Conda environment and Python package management easier:

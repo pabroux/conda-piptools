@@ -1,5 +1,5 @@
 <p align="center">
-  <img width=600 src="https://github.com/user-attachments/assets/a77313b6-1a42-46c1-8230-708af3c50a50">
+  <img width=600 src="https://github.com/user-attachments/assets/65e41590-8449-4c39-a6ab-fc03dfbe8941">
 </p>
 <p align="center">
   <b>A mini tool to better handle your Conda environment and Python package</b>
